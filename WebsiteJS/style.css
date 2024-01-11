@@ -1,0 +1,63 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(188, 239, 100);
+}
+h1, p{
+    color: rgba(113, 48, 106, 0.784);
+}
+p{
+    font-weight: bold;
+}
+#textBox, #outputdisplay{
+    border-radius: 5px rgb(252, 197, 197);
+    font-size: 2em;
+    color: rgb(245, 19, 16);
+    background-color: rgb(188, 239, 100);
+    font-style: initial;
+}
+
+
+button[type='button']{
+    margin-top: 5px;
+    padding: 5px;
+    margin-left: 10px;
+    height:auto;
+    width: auto;
+    font-size: 1em;
+    border-radius: 2px;
+    color: darkblue;
+    background-color: transparent;
+    transition-duration: 0.5s;
+    border:rgb(20, 70, 112);
+}
+
+button[type='button']:hover{
+    padding: 5px;
+    height:20%;
+    width: 30%;
+    font-size: 1em;
+    border: none;
+    color: rgba(255, 255, 255, 0.955);
+    background-color: darkblue;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 2px blue;
+}
+
+input[type='radio']{
+    margin: 10px;
+    accent-color: rgb(5, 5, 143);
+    size: 40%;
+    background-color: transparent;
+    padding: 30px;
+}
+
+input[type='radio']::before:hover{
+    accent-color: rgb(28, 28, 225);
+    size: 60%;
+    background-color: transparent;
+    color: darkblue;
+    box-shadow: 3px 1px 10px  rgba(0, 0, 255, 0.011);
+    padding: 40px;
+    outline: none;
+    outline-color: aliceblue;
+}
